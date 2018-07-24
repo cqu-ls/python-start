@@ -4,6 +4,7 @@ import pandas as pd
 titanic_survival = pd.read_csv("../data/titanic_train.csv")
 print(titanic_survival.head())
 
+
 age = titanic_survival["Age"]
 age_is_null = pd.isnull(age)
 age_null = age[age_is_null]
