@@ -4,6 +4,7 @@ food_info = pandas.read_csv("../data/food_info.csv")
 print(type(food_info))
 print(food_info.dtypes)
 
+
 print(food_info.head(3),food_info.tail(4))
 
 print(food_info.columns)
