@@ -13,6 +13,7 @@ film_names = series_film.values
 print(film_names,type(film_names))
 print(series_rt[0:5])
 
+
 rt_scores = series_rt.values
 series_custom = Series(data=rt_scores,index=film_names)
 print(series_custom,type(series_custom),series_custom.shape)
