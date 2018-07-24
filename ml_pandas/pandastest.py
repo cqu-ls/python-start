@@ -9,6 +9,7 @@ print(food_info.head(3),food_info.tail(4))
 print(food_info.columns)
 print(food_info.shape)
 
+
 print(food_info.loc[3:6])
 print(food_info["Thiamin_(mg)"])
 columns1 =["Thiamin_(mg)","Shrt_Desc"]
