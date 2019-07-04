@@ -1,0 +1,6 @@
+python 引用（import）文件夹下的py文件的方法
+https://blog.csdn.net/fengshanghere/article/details/82968052
+
+linux下python代码只在文件目录下才能调用，在其他路径输入绝对路径不能执行（调用了其他文件夹下的模块，该模块中存在文件的绝对路径导致出错）
+https://blog.csdn.net/lionhenryzxxy/article/details/82738187
+
